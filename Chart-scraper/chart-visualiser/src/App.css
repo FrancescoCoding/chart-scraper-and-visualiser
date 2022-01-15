@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgb(5, 120, 162);
+}
+
+.App {
+  text-align: center;
+  padding: 3rem;
+  background-color: #54f5f2;
+  height: calc(100vh - 2rem);
+  margin-top: 1rem;
+}
+
+.form-container {
+  width: 100vw !important;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+input {
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 16px;
+  background-color: rgb(224, 255, 251);
+  border: 2px solid rgb(25, 139, 245);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+input:focus {
+  outline: none;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+  border: 2px solid rgb(25, 139, 245);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(61, 143, 220);
+  color: rgb(255, 255, 255);
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.fetching-chart {
+  font-size: 2.3rem;
+  font-weight: 200;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 170px;
+  width: 350px;
+  margin: 10px;
+}
+.card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*  make cards in main wrap */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+}
