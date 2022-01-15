@@ -1,1 +1,1 @@
-# chart-scraper-and-visualiser
+# Chart scraper and visualiser
