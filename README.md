@@ -1,5 +1,5 @@
 # Chart scraper and visualiser
-## React, Node, Puppeteer
+## Made with React, Node, Puppeteer
 1) Install dependencies for node server with **npm i** and run it with **npm start**  
 
 
