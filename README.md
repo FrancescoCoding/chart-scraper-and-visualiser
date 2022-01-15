@@ -10,3 +10,6 @@ In the same terminal with **npm start**
 
 To make this work locally you need to either fix the cors error or download this plugin to deactivate  
 ![image](https://user-images.githubusercontent.com/64712227/149634490-61069080-1fcf-4cf2-ba18-b71213b0671d.png)
+
+## Demo preview
+![Portfolio Preview_4](https://user-images.githubusercontent.com/64712227/149635833-b8b00e75-f511-4d9a-a9ff-0c211b18bdc1.gif)
