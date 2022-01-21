@@ -49,6 +49,7 @@ const harvestTime = async (
           const child = children[i];
           const text = child.textContent;
           // console.log(text);
+          
           // Separate the first text until the first - and put it in a variable called location and remove whitespaces
           const location = text.split("-")[0].trim();
           // Separate the second text until the second - and put it in a variable called ICAO
